@@ -1,0 +1,76 @@
+﻿.d2l-quiz-heading .vui-heading-2 {
+	padding-bottom: 0 !important;
+	padding-top: 7px;
+}
+
+.d2l-quiz-heading-1 .vui-heading-2 {
+	position: relative;
+	top: 6px;
+}
+
+.daylight .d2l-quiz-attempt-top-group .dco_c {
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-ms-flex-flow: row wrap;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+	-ms-align-items: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+.daylight .d2l-quiz-attempt-top-group-left {
+	margin-left: -50px;
+	-ms-flex-positive: 1;
+	-webkit-flex-grow: 1;
+	flex-grow: 1;
+	width: 85%;
+}
+
+.daylight hr.D2LSeparator {
+	padding-bottom: 0.9em;
+}
+
+@media(max-width: 993px) {
+	.daylight #d2l_form {
+		padding-left: 2.439%;
+		padding-right: 2.439%;
+	}
+}
+
+@media(max-width: 615px) {
+	.daylight #d2l_form {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
+
+.d2l-quiz-controls .dco_c {
+	display: flex;
+	align-items: center;
+}
+
+.progress-root {
+	transform: rotate(-90deg);
+}
+
+.progress-track, #progress-indicator {
+	fill: none;
+	stroke-linecap: round;
+}
+
+.progress-track {
+	stroke: var(--d2l-color-gypsum);
+}
+
+#progress-indicator {
+	stroke: var(--d2l-color-celestine);
+	transition: stroke-dashoffset .5s ease 0s;
+}
+
+.d2l-quiz-timer {
+	position: relative;
+	z-index: 10;
+}
+
